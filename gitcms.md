@@ -1,9 +1,6 @@
 ---
-repo: pcrowe22/astro-platform-starter
-media_path: /src/assets
-website_url: https://netlifyastro-starter.netlify.app/
 collections:
-  - name: ''
+  - name: Posts
     git_path: /src/content
     filename_pattern: title
     file_extension: .md
@@ -11,6 +8,9 @@ collections:
       - name: title
         type: title
         required: true
+media_path: /src/assets
+repo: pcrowe22/astro-platform-starter
+website_url: https://netlifyastro-starter.netlify.app/
 ---
 # GitCMS Configuration File
 > [!WARNING]
